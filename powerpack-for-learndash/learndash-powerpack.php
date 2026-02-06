@@ -2,12 +2,12 @@
 /**
  * Plugin Name: PowerPack for LearnDash
  * Plugin URI: https://honorswp.com/
- * Description: PowerPack for LearnDash is the ultimate way to add functionality to your LearnDash powered website
- * Author: HonorsWP
+ * Description: PowerPack for LearnDash is the ultimate way to add functionality to your LearnDash powered website.
+ * Author: Honors WP
  * Author URI: https://honorswp.com/
- * Version: 1.3.2
- * Requires PHP: 5.6
- * Requires at least: 5.9
+ * Version: 1.3.3
+ * Requires PHP: 7.4
+ * Requires at least: 6.0
  * Text Domain: learndash-powerpack
  * Domain Path: /languages
  * License: GNU General Public License v3.0
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Required minimums and constants
  */
-define( 'LD_POWERPACK_VERSION', '1.3.2' );
+define( 'LD_POWERPACK_VERSION', '1.3.3' );
 define( 'LD_POWERPACK_MAIN_FILE', __FILE__ );
 define( 'LD_POWERPACK_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 define( 'LD_POWERPACK_PLUGIN_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
